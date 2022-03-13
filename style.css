@@ -1,0 +1,78 @@
+@import url(reset.css);
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    margin-top: 200px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 50px 0;
+}
+
+.input-container {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.the-first,
+.the-second,
+.answer {
+    margin-bottom: 20px;
+    width: inherit;
+    border: 2px solid lightgray;
+    height: 35px;
+    padding-left: 20px;
+
+}
+
+.the-first::placeholder,
+.the-second::placeholder,
+.answer::placeholder {
+    color: black;
+}
+
+.button-container {
+    margin: 0 auto;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+}
+
+.plus {
+    background-color: rgb(29, 154, 196);
+    color: white;
+}
+
+.minus {
+    background-color: rgb(53, 189, 53);
+    color: white;
+}
+
+.divide {
+    background-color: rgb(235, 202, 16);
+}
+
+.multiply {
+    background-color: #e43b1d;
+    color: white;
+}
+
+
+
